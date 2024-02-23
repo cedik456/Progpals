@@ -3,35 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Merolmuspi</title>
+  <title>ProgPals</title>
   <link rel="stylesheet" href="style.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <nav>
         <div class="nav-bar">
-            <span class="logo"><a href="">Merolmuspi</a></span>
+            <i class='bx bx-menu sidebarOpen'></i>
+            <span class="logo navLogo"><a href="./index.html">Progpals</a></span>
 
             <div class="menu">
-                <!-- <ul class="nav-links" role="list">
-                    <li><a href="#">Learn</a></li>
-                    <li><a href="#">Developers</a></li>
-                    <li><a href="#">Ecosystem</a></li>
-                    <li><a href="#">Community</a></li>
-                    <li><a href="#">Resources</a></li>
-                </ul> -->
+                <div class="logo-toggle">
+                    <span class="logo"><a href="./index.html">Progpals</a></span>
+                    <i class='bx bx-x sidebarClose'></i>
+                </div>
+
+                <ul class="nav-links" role="list">
+                    <li><a href="./learn.html">Learn</a></li>
+                    <li><a href="./developers.html">Developers</a></li>
+                    <li><a href="./ecosystem.html">Ecosystem</a></li>
+                    <li><a href="./community.html">Community</a></li>
+                    <li><a href="./resources.html">Resources</a></li>
+                </ul>
 
             </div>
 
             <div class="darkLight-searchBox">
+                
                 <div class="dark-light">
                     <i class='bx bx-moon moon'></i>
                     <i class='bx bx-sun sun' ></i>
                 </div>
 
                 <div class="searchBox">
-                    <i class='bx bx-x cancel'></i>
-                    <i class='bx bx-search search' ></i>
+                    <div class="searchToggle">
+                        <i class='bx bx-x cancel'></i>
+                        <i class='bx bx-search search' ></i>
+                    </div>   
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search' ></i>
+                    </div>
                 </div>
 
             </div>
@@ -39,9 +52,245 @@
         </div>
     </nav>
 
-  
-  
-  
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="even-columns">
+                    <div class="hero-div">
+                        <h1 class="title">Communicate.
+                        <br> Collaborate. Create</h1>
+                        <p>We merge coding mastery with creativity to craft advanced solutions. Join us in discovering the thrilling possibilities in the future of coding.</p>
+                            <div class="btn-container">
+                            <button class="btn">Get Started</button>
+                            </div>
+                    </div>
+                    <div>
+                        <img src="./assets/startup.png" alt="Rocket png" class="rocket">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="yellow">
+            <div class="container">
+                <div class="even-columns">
+                    <div class="hero-div">
+                        <h2>With the Right. <br>
+                            Team, Great 
+                            Things Can Happen </h2>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero soluta tempore, corporis in excepturi recusandae atque minima quis exercitationem voluptates omnis asperiores illo rem accusantium laborum dolorem expedita error molestiae.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="wrapper">
+                    <h2> What We Offer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vitae beatae voluptates deleniti obcaecati quo quasi vero placeat blanditiis</p>
+                </div>
+                <div class="even-columns offers-even-columns">
+                    <div class="offer-container">
+                        <img src="./assets/sample-img.webp" alt="Offers img 1" class="offer-img">
+                        <h3>Idea Generation</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non incidunt aut adipisci magni</p>
+                    </div>
+                    <div>
+                        <img src="./assets/sample-img2.webp" alt="Offers img 2" class="offer-img ">
+                        <h3>Technology Innovation</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non incidunt aut adipisci magni</p>
+                    </div>
+                    <div>
+                        <img src="./assets/sample-img3.webp" alt="Offers img 3" class="offer-img ">
+                        <h3>Business Planning</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non incidunt aut adipisci magni</p>
+                    </div>
+                    <div>
+                        <img src="./assets/sample-img4.webp" alt="Offers img 4" class="offer-img ">
+                        <h3>Team Building</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non incidunt aut adipisci magni</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="even-columns">
+                    <div>
+                        <img src="./assets/startup.png" alt="Rocket png" class="rocket">
+                    </div>
+                    <div>
+                        <h2>Built for Creatives</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae asperiores cumque provident iste eum soluta officiis culpa tenetur obcaecati ipsa debitis iure perspiciatis</p>
+
+                        <button class="btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div>
+                    <h2>Our Aspiring Partners</h2>
+                </div>
+                <div class="even-columns">
+                    <div class="partners-container">
+                        <img src="./assets/partners5.png" alt="Sili Deli png" class="img">
+                        <img src="./assets/partners1.png" alt="Spark learn png" class="img">
+                    </div>
+                    <div class="partners-container">
+                        <img src="./assets/partners3.webp" alt="Ayala malls png" class="img">
+                        <img src="./assets/partners4.webp" alt="Arttoys png" class="img">
+                    </div>
+                    <div class="partners-container">
+                        <img src="./assets/partners7.png" alt="Amac png" class="img">
+                        <img src="./assets/partners6.png" alt="SDS png" class="img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2>What Our Client Say</h2>
+                <div class="even-columns testimonials-grid">
+                    <div class="card">
+                        <span><i class='bx bxs-quote-alt-left'></i></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequatur atque vitae maiores libero aliquid aliquam sequi.</p>
+                        <img src="./assets/review-pic-1.jpg" alt="Review img 1">
+                        <p>Mark Joseph Ante</p>
+                    </div>
+                    <div class="card">
+                        <span><i class='bx bxs-quote-alt-left'></i></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequatur atque vitae maiores libero aliquid aliquam sequi.</p>
+                        <img src="./assets/review-pic-2.jpg" alt="Review img 2">
+                        <p>Emman Espena</p>
+                    </div>
+                    <div class="card">
+                        <span><i class='bx bxs-quote-alt-left'></i></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequatur atque vitae maiores libero aliquid aliquam sequi.</p>
+                        <img src="./assets/review-pic-3.jpg" alt="Review img 3">
+                        <p>Renan Bisle</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="even-columns">
+                    <div>
+                        <h2>Explore Our Pricing Options</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae molestias nobis natus tempora adipisci voluptatem dolore accusantium</p>
+                        <button class="btn">See More</button>
+                    </div>
+                    <div>
+                        <img src="./assets/pricingofr1.png" alt="Price IMG">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="events-h2">Upcoming Events</h2>
+                <div class="flex-columns">
+                    <div class="updates-container">
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                        <div>
+                            <p>Thu Feb 22 - Wed, 28 2024</p>
+                            <h3>Progpals Hackaton</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis unde porro sed nesciunt deleniti vitae aliquam velit earum ratione aspernatur adipisci eveniet temporibus sapiente officiis, corporis quibusdam rem molestiae facere?</p>
+                        </div>
+                    </div>
+
+                    <div class="updates-container">
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                        <div>
+                            <p>Thu Feb 22 - Wed, 28 2024</p>
+                            <h3>Progpals Hackaton</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis unde porro sed nesciunt deleniti vitae aliquam velit earum ratione aspernatur adipisci eveniet temporibus sapiente officiis, corporis quibusdam rem molestiae facere?</p>
+                        </div>
+                    </div>
+
+                    <div class="updates-container">
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                        <div>   
+                            <p>Thu Feb 22 - Wed, 28 2024</p>
+                            <h3>Progpals Hackaton</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis unde porro sed nesciunt deleniti vitae aliquam velit earum ratione aspernatur adipisci eveniet temporibus sapiente officiis, corporis quibusdam rem molestiae facere?</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2>FAQs</h2>
+                <div class="even-columns testimonials-grid">
+                    <div class="card faqs-card">
+                        <h2>View all questions</h2>
+                        <h3><a href="">View<i class='bx bx-right-arrow-alt'></i></a></h3>
+                    </div>
+                    <div class="card faqs-card">
+                        <h2>What is Progpals?</h2>
+                        <h3><a href="">View<i class='bx bx-right-arrow-alt'></i></a></h3>
+                    </div>
+                    <div class="card faqs-card">
+                        <h2>Who is Progpals?</h2>
+                        <h3><a href="">View<i class='bx bx-right-arrow-alt'></i></a></h3>
+                    </div>
+                    <div class="card faqs-card">
+                        <h2>What is Prog?</h2>
+                        <h3><a href="">View<i class='bx bx-right-arrow-alt'></i></a></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="even-columns">
+                <div>
+                    <h4>Progpals</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla qui sit ad, sint facilis, architecto laboriosam</p>
+                    <div>
+                        <a href=""><i class='bx bxl-facebook' ></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <div class="footer-nav">
+                    <ul role="list">
+                    <li><a href="./termscondition.html">Terms and Condition</a></li>
+                    <li><a href="./privacypolicy.html">Privacy Policy</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div>
+                    <h4>Follow</h4>
+                    <p>Sign up to get the latest news on our startup.</p>
+                    <form>
+                        <input type="email" placeholder="">
+                        <button class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
   <script src="main.js"></script>
 </body>
 </html>
