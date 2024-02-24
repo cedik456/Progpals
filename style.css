@@ -73,6 +73,7 @@ picture {
   --body-color:#FBFBFB;
   --nav-color:#FFFFFF;
   --side-nav: #F9F9F9;
+  --nav-txt-clr:#6B7280;
   --text-color:#1A202C;
   --search-bar:#F6F6F6;
   --search-text:#1A202C;
@@ -90,6 +91,7 @@ body.dark {
   --body-color:#0B0B0B;
   --nav-color:#121212;
   --side-nav: #1B1B1B;
+  --nav-txt-clr:#6B7280;
   --text-color:#F9F9F9;
   --search-bar:#121212;
   --search-text:#121212;
@@ -170,8 +172,13 @@ nav {
   font-size: .9rem;
   font-weight: 400;
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--nav-txt-clr);
   padding: 0.6rem;
+  transition: all .2s ease-in;
+}
+
+.nav-links li a:hover {
+  color: var(--text-color);
 }
 
 /* sear AND DARKMODE */
@@ -582,6 +589,8 @@ section {
 /* Events */
 
 .updates-container {
+  display: flex;
+  align-items: center;
   padding: 1rem;
   background-color: var(--card-bg-clr);
   border-radius: 1rem;
@@ -589,11 +598,19 @@ section {
   padding-top: 1rem;
 }
 
+/* .events-img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+} */
+
 .events-h2{
   text-align: center;
   margin: 2rem;
   font-weight: 400;
 }
+
+
 
 /* FAQs Section */
 
@@ -638,6 +655,11 @@ footer p {
   color: var(--p-color);
   font-weight: 400;
   text-decoration: none;
+}
+
+footer input {
+  border-radius: 1rem;
+  height: 2rem;
 }
 
 /* Developers Section */
@@ -707,6 +729,33 @@ footer p {
 
 
 /* Contacts */
+
+.contacts form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  width: 900%;
+  max-width: 600px;
+  text-align: center;
+  background-color: var(--card-bg-clr);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.contacts input,
+.contacts textarea {
+  border: 0;
+  margin: 10px;
+  padding: 20px;
+  outline: none;
+  background-color: #f5f5f5;
+  font-size: 1rem;
+  border-radius: .2rem;
+}
+
+
 
 
 
