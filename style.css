@@ -135,8 +135,8 @@ nav {
 
 .nav-bar .sidebarOpen {
   color: var();
-  font-size: 25px;
-  padding: 5px;
+  font-size: 1.5rem;
+  padding: 0.3rem;
   cursor: pointer;
   display: none;
 }
@@ -190,12 +190,12 @@ nav {
 
 .dark-light,
 .searchToggle {
-  height: 40px;
-  width: 40px;
+  height: 2.5rem;
+  width: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 5px;
+  margin: 0 .3rem;
 }
 
 .dark-light i,
@@ -245,10 +245,10 @@ nav {
 
 .search-field {
   position: absolute;
-  bottom: -85px;
-  right: 5px;
-  height: 50px;
-  width: 300px;
+  bottom: 5.3rem;
+  right: 0.3rem;
+  height: 3.1rem;
+  width: 18rem;
   background-color: var(--nav-color);
   display: flex;
   align-items: center;
@@ -641,7 +641,7 @@ footer {
   height: 30vh;
   background-color: #1B1B1B;
   vertical-align: top;
-  height: 60vh;
+  height: 70vh;
   
 }
 
@@ -734,8 +734,8 @@ footer input {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 2rem;
-  width: 900%;
+  padding: 1rem;
+  width: 90%;
   max-width: 600px;
   text-align: center;
   background-color: var(--card-bg-clr);
