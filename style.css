@@ -478,6 +478,7 @@ section {
   display: grid;
   align-items: center;
   padding-top: 1rem;
+  padding-block: 5rem;
 }
 
 .title {
@@ -662,6 +663,17 @@ footer input {
   height: 2rem;
 }
 
+.footer-icons {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.footer-icons i {
+  color: var(--ftr-txt-clr);
+  font-size: 1.5rem;
+}
+
 /* Developers Section */
 
 .developers {
@@ -754,6 +766,16 @@ footer input {
   font-size: 1rem;
   border-radius: .2rem;
 }
+
+/* NOT AVAIALABLE */
+
+#notAvailable {
+  text-align: center;
+}
+
+/* LABEL */
+
+
 
 
 
