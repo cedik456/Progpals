@@ -189,7 +189,8 @@ nav {
 }
 
 .dark-light,
-.searchToggle {
+.searchToggle,
+.login a {
   height: 2.5rem;
   width: 2.5rem;
   display: flex;
@@ -199,7 +200,8 @@ nav {
 }
 
 .dark-light i,
-.searchToggle i {
+.searchToggle i,
+.login i {
   position: absolute;
   color: var(--text-color);
   font-size: 1rem;
@@ -492,6 +494,10 @@ section {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.progpals-logo {
+  height: 5rem;
 }
 
 /* Second section */
