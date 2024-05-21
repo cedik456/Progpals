@@ -436,6 +436,18 @@ p {
   width: 70%;
 }
 
+.web-cards  {
+  cursor: pointer;
+}
+
+.web-cards {
+  color: var(--rckt-png-clr);
+  width: 800px;  /* Initial width */
+  height: auto;  /* Maintain aspect ratio */
+  transform: scale(1.8);  /* Scale up the image by 2 times */
+  transform-origin: center;  /* Scale from the center */
+}
+
 .icons-container {
   display: flex;
   gap: 2rem;
